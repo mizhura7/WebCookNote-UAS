@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ujian Akhir Semester</title>
-    <link href="../../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     
 </head>
 <body>
-    <!-- <div class="container"> -->
+    <!-- Navigasi Bar -->
         <div class="header">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
@@ -19,77 +19,84 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+                          Kategori
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><a class="dropdown-item" href="../../kategori/Makanan/index.html">Makanan</a></li>
+                          <li><a class="dropdown-item" href="../../kategori/Hidangan Penutup/index.html">Hidangan Penutup</a></li>
+                          <!-- <li><hr class="dropdown-divider"></li> -->
+                          <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                         </ul>
                       </li>
                     </ul>
                     <form class="d-flex" role="search">
                       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
+                      <button class="btn btn-outline-success" type="submit" style="width: 100px;">Search</button>
                     </form>
                   </div>
                 </div>
               </nav>
-
-<div class="container-fluid">
-    <div class="main">
-        <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../img/bakso aci.webp" class="d-block " style="margin: 10px auto auto; height: 450px;" alt="...">
-            </div>
         </div>
-        <div style="text-align: left; margin: 10px 250px auto;">
-            <h3>Bakso Aci</h3>
-            <h6>Resep Bakso Aci</h6>
-            <br>
-            <h6>Bahan-bahan</h6>
-            <p>
-                <ul>
-                    <li>15 sdm tepung terigu</li>
-                    <li>10 sdm tepung tapioka</li>
-                    <li>10 buah tahu goreng, potong segitiga</li>
-                    <li>1 batang daun bawang, iris halus</li>
-                    <li>3 siung bawang putih, haluskan</li>
-                    <li>1 sdt kaldu bubuk</li>
-                    <li>1 sdt garam</li>
-                    <li>air panas secukupnya</li>
-                    <li>1 buah jeruk limau</li>
-                    <li>kacang pilus secukupnya</li>
-                </ul>
-            </p>
-            <h6>Bahan Kuah</h6>
-            <p>
-                <ul>
-                    <li>5 butir bawang merah</li>
-                    <li>3 siung bawang putih</li>
-                    <li>3 buah cabai merah besar</li>
-                    <li>9 buah cabai rawit</li>
-                    <li>1 batang daun bawang, iris</li>
-                    <li>garam, gula pasir, dan kaldu bubuk secukupnya</li>
-                </ul>
-            </p>
-            <h6>Cara Membuat</h6>
-            <p>
-                <ol>
-                    <li>Campur tepung terigu, tepung tapioka, daun bawang, garam, bawang putih, dan kaldu bubuk. Tuang air panas sedikit demi sedikit sambil diaduk hingga adonan mudah dibentuk.</li>
-                    <li>Bagi adonan jadi dua.</li>
-                    <li>Kerok sebagian isi tahu. Campurkan bagian putih tahu yang dikerok ke satu bagian adonan, aduk rata. Masukkan adonan ke dalam tahu. Kukus tahu hingga matang.</li>
-                    <li>Bentuk sisa adonan menjadi bulat-bulat dan bulat memanjang. Rebus di air mendidih sampai mengapung, angkat dan tiriskan. Goreng sebagian bakso aci yang sudah direbus.</li>
-                    <li>Untuk bahan kuah, haluskan bawang merah, bawang putih, cabai rawit, dan cabai merah. Tumis sampai harum. Masukkan air. Tambahkan garam, gula, dan kaldu bubuk. Masak hingga mendidih. Tambahkan daun bawang. Koreksi rasa.</li>
-                    <li>Sajikan bakso aci, tahu aci, dan aci goreng dengan kuah pedas. Tambahkan air perasan jeruk dan kacang pilus.</li>
-                </ol>
-            </p>
-        </div>  
+
+
+
+    <!-- Main Content -->
+    <div class="container-fluid">
+        <div class="main">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../img/bakso aci.webp" class="d-block " style="margin: 10px auto auto; height: 450px;" alt="...">
+                </div>
+            </div>
+            <div style="text-align: left; margin: 10px 250px auto;">
+                <h3>Bakso Aci</h3>
+                <h6>Resep Bakso Aci</h6>
+                <br>
+                <h6>Bahan-bahan</h6>
+                <p>
+                    <ul>
+                        <li>15 sdm tepung terigu</li>
+                        <li>10 sdm tepung tapioka</li>
+                        <li>10 buah tahu goreng, potong segitiga</li>
+                        <li>1 batang daun bawang, iris halus</li>
+                        <li>3 siung bawang putih, haluskan</li>
+                        <li>1 sdt kaldu bubuk</li>
+                        <li>1 sdt garam</li>
+                        <li>air panas secukupnya</li>
+                        <li>1 buah jeruk limau</li>
+                        <li>kacang pilus secukupnya</li>
+                    </ul>
+                </p>
+                <h6>Bahan Kuah</h6>
+                <p>
+                    <ul>
+                        <li>5 butir bawang merah</li>
+                        <li>3 siung bawang putih</li>
+                        <li>3 buah cabai merah besar</li>
+                        <li>9 buah cabai rawit</li>
+                        <li>1 batang daun bawang, iris</li>
+                        <li>garam, gula pasir, dan kaldu bubuk secukupnya</li>
+                    </ul>
+                </p>
+                <h6>Cara Membuat</h6>
+                <p>
+                    <ol>
+                        <li>Campur tepung terigu, tepung tapioka, daun bawang, garam, bawang putih, dan kaldu bubuk. Tuang air panas sedikit demi sedikit sambil diaduk hingga adonan mudah dibentuk.</li>
+                        <li>Bagi adonan jadi dua.</li>
+                        <li>Kerok sebagian isi tahu. Campurkan bagian putih tahu yang dikerok ke satu bagian adonan, aduk rata. Masukkan adonan ke dalam tahu. Kukus tahu hingga matang.</li>
+                        <li>Bentuk sisa adonan menjadi bulat-bulat dan bulat memanjang. Rebus di air mendidih sampai mengapung, angkat dan tiriskan. Goreng sebagian bakso aci yang sudah direbus.</li>
+                        <li>Untuk bahan kuah, haluskan bawang merah, bawang putih, cabai rawit, dan cabai merah. Tumis sampai harum. Masukkan air. Tambahkan garam, gula, dan kaldu bubuk. Masak hingga mendidih. Tambahkan daun bawang. Koreksi rasa.</li>
+                        <li>Sajikan bakso aci, tahu aci, dan aci goreng dengan kuah pedas. Tambahkan air perasan jeruk dan kacang pilus.</li>
+                    </ol>
+                </p>
+            </div>  
+        </div>
     </div>
-</div>
+<script src="../../bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
